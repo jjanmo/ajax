@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>FETCH</title>
+    </head>
+    <body>
+        <article></article>
+        <input type="button" value="fetch" onclick="fetchEx()" />
+    </body>
+    <script>
+        function fetchEx() {
+            fetch("html")
+                .then(function(response) {
+                    return response.text();
+                })
+                .then(function(text) {
+                    document.querySelector("article").innerHTML = text;
+                });
+        }
+    </script>
+</html>
