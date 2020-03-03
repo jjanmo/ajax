@@ -12,5 +12,3 @@
 -   [fetch API](https://developer.mozilla.org/ko/docs/Web/API/Fetch_API)를 이용한 Ajax 구현
 -   기본적인 SPA 개념을 구현
 -   [WAMP](https://bitnami.com/stack/wamp/installer) 설치를 통한 Apache Web Server 구축
-
-# Ajax
